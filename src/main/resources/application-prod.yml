@@ -2,9 +2,9 @@ spring:
   # DataSource Config
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: 'jdbc:mysql://124.221.66.151:3306/minzu?useSSL=false'
-    username: 123456
-    password: 123456
+    url: 'jdbc:mysql://132ip:3306/minzu?useSSL=false'
+    username: 123
+    password: 123
   # session 失效时间
   session:
     timeout: 86400
