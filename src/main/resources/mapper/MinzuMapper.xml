@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yupi.usercenter.mapper.MinzuMapper">
+
+    <resultMap id="BaseResultMap" type="com.yupi.usercenter.model.domain.Minzu">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="minzuName" column="minzuName" jdbcType="VARCHAR"/>
+            <result property="minzuUrl" column="minzuUrl" jdbcType="VARCHAR"/>
+            <result property="minzuType" column="minzuType" jdbcType="VARCHAR"/>
+            <result property="minzuSource" column="minzuSource" jdbcType="INTEGER"/>
+            <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="updateTime" jdbcType="TIMESTAMP"/>
+            <result property="isDelete" column="isDelete" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,minzuName,minzuUrl,
+        minzuType,minzuSource,createTime,
+        updateTime,isDelete
+    </sql>
+</mapper>
