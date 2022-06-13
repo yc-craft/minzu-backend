@@ -12,12 +12,14 @@ target/
 .settings
 .springBeans
 .sts4-cache
+*.yml
 
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
+
 
 ### NetBeans ###
 /nbproject/private/
@@ -33,5 +35,4 @@ build/
 .vscode/
 
 ### yang ###
-*.yml
 WebMvcConfg.java
