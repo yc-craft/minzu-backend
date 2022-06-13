@@ -12,7 +12,7 @@ public class WebMvcConfg implements WebMvcConfigurer {
         registry.addMapping("/**")
             //设置允许跨域请求的域名
             //当**Credentials为true时，**Origin不能为星号，需为具体的ip地址【如果接口不带cookie,ip无需设成具体ip】
-            .allowedOrigins("http://124.221.66.151:8000")
+            .allowedOrigins("http://123:8000")
 
            //是否允许证书 不再默认开启
             .allowCredentials(true)
