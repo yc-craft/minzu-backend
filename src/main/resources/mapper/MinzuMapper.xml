@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.yupi.usercenter.mapper.MinzuMapper">
+<mapper namespace="com.yang.minzu.mapper.MinzuMapper">
 
-    <resultMap id="BaseResultMap" type="com.yupi.usercenter.model.domain.Minzu">
+    <resultMap id="BaseResultMap" type="com.yang.minzu.model.domain.Minzu">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="minzuName" column="minzuName" jdbcType="VARCHAR"/>
             <result property="minzuUrl" column="minzuUrl" jdbcType="VARCHAR"/>
